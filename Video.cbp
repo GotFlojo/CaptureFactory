@@ -37,6 +37,7 @@
 			<Add option="`pkg-config --libs opencv`" />
 		</Linker>
 		<Unit filename="include/chess.h" />
+		<Unit filename="include/prettyprint.hpp" />
 		<Unit filename="include/videosynth.h" />
 		<Unit filename="lena.jpg" />
 		<Unit filename="main.cpp" />
