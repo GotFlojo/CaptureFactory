@@ -18,7 +18,7 @@ class VideoSynth
 
         virtual bool read(cv::Mat& dst);
         bool isOpenend();
-    private:
+    protected:
         float m_noise;
         cv::Mat m_bg;
         cv::Size m_frameSize;

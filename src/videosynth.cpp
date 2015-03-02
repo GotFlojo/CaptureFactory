@@ -1,14 +1,9 @@
 #include "videosynth.h"
 
-VideoSynth::VideoSynth(float noise)
-{
-    this->m_noise = noise;
-    this->m_frameSize=cv::Size(640, 480);
-}
+VideoSynth::VideoSynth(float noise) :m_noise(noise), m_frameSize(cv::Size(640, 480)) {}
 
 VideoSynth::VideoSynth(cv::Size frame_size, float noise) : VideoSynth(noise)
 {
-
     this->m_frameSize = frame_size;
 }
 
